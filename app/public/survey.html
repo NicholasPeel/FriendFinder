@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Survey</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron jumbotron-fluid bg-secondary rounded shadow">
+                    <div class="container">
+                        <h1 class="display-3 ml-2 text-light">
+                            <i class="fas fa-users text-light"></i> Survey</h1>
+                        <hr class="my-4">
+                        <p class="lead ml-2 text-light">Take the survey and get matched with like minded people!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body bg-secondary rounded">
+                        <form>
+                            <div class="form-group">
+                                <label class="text-light">Name:</label>
+                                <input type="input" class="form-control" id="input-name" aria-describedby="emailHelp" placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-light">Photo: </label>
+                                <input type="img" class="form-control" id="input-img" placeholder="Your Photo Address Here">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card shadow rounded">
+                    <div class="card-header bg-secondary text-light">
+                        Questions
+                    </div>
+                    <div class="card-body">
+                        <div class="question">
+                            <h5 class="card-title">1. - You find it difficult to introduce yourself to other people.</h5>
+                            <select id="q1" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">2. - You often get so lost in thoughts that you ignore or forget your surroundings.</h5>
+                            <select id="q2" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">3. - You find it easy to stay relaxed even when there is some pressure.</h5>
+                            <select id="q3" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">4. - You are usually highly motivated and energetic.</h5>
+                            <select id="q4" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">5. - You consider yourself more practical than creative.</h5>
+                            <select id="q5" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">6. - People can rarely upset you.</h5>
+                            <select id="q6" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">7. - Your travel plans are usually well thought out.</h5>
+                            <select id="q7" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">8. - In a discussion, truth should be more important than people’s sensitivities.</h5>
+                            <select id="q8" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">9. - As a parent, you would rather see your child grow up kind than smart.</h5>
+                            <select id="q9" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <div class="question">
+                            <h5 class="card-title">10. - You do not let other people influence your actions.</h5>
+                            <select id="q10" class="form-control">
+                                <option>1 - Strongly Disagree</option>
+                                <option>2 - Disagree</option>
+                                <option>3 - Unsure</option>
+                                <option>4 - Agree</option>
+                                <option>5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                        <hr class="my-4">
+                        <!-- Button trigger modal -->
+                        <button id="surveySubmit" type="button" class="btn btn-secondary rounded btn-lg" data-toggle="modal" data-target="#exampleModal">
+                            Submit
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-secondary">
+                                        <h5 class="modal-title text-light" id="exampleModalLabel">Your Matches</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div id="match-content" class="modal-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript">
+
+        $("#surveySubmit").on("click", function (event) {
+            event.preventDefault();
+            var user = {
+                name: $("#input-name").val().trim(),
+                photo: $("#input-img").val().trim(),
+                scores: [
+                    $("#q1").val().trim()[0],
+                    $("#q2").val().trim()[0],
+                    $("#q3").val().trim()[0],
+                    $("#q4").val().trim()[0],
+                    $("#q5").val().trim()[0],
+                    $("#q6").val().trim()[0],
+                    $("#q7").val().trim()[0],
+                    $("#q8").val().trim()[0],
+                    $("#q9").val().trim()[0],
+                    $("#q10").val().trim()[0]
+                ]
+            };
+
+            console.log(user);
+
+            $.post("/api/friends", user,
+                function (data) {
+
+                    console.log(data);
+                    $("#match-content").empty();
+                    for (let i = 0; i < data.length; i++) {
+                        var match = $("<div>");
+                        var name = $("<p>").text(data[i].name);
+                        var photo = $("<img>").attr("src", data[i].photo);
+                        photo.width(400);
+                        photo.height(500);
+                        match.append(name);
+                        match.append(photo);
+                        $("#match-content").append(match);
+                    }
+
+                    $("#reserve-name").val("");
+                    $("#reserve-phone").val("");
+                    $("#reserve-email").val("");
+                    $("#reserve-unique-id").val("");
+
+                });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
